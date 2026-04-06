@@ -42,3 +42,4 @@ print("\n--- Testing Matrix B ---")
 print("Is B skew-symmetric?", is_skew_symmetric(B))
 print("Trace of B:", get_trace(B))
 print("Rank of B:", get_rank(B))
+

@@ -23,3 +23,5 @@ print(proof)
 
 print(np.allclose(matrix_A @ inverse_A, np.eye(3)))
 
+
+
