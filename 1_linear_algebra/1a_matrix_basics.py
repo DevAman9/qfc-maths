@@ -22,3 +22,4 @@ print(proof)
 # or using the more efficient way and to avoid the point error
 
 print(np.allclose(matrix_A @ inverse_A, np.eye(3)))
+
