@@ -1,8 +1,28 @@
-from typing import final
 
 import numpy as np
 
+# making a 2x3 matrix
+A = np.array([[1, 2, 3],
+              [1, 2, 3]])
 
+# printing its shape
+print(np.shape(A))
+
+print(A[1, 2])
+
+B = np.array([[0, 2, 1],
+              [2, 1, 3]])
+
+Add_ab = A + B
+print(Add_ab)
+
+sub_ab = A - B
+print(sub_ab)
+
+print(5 * A)
+
+# dot product of a and b throws in an error because again. columns on a should be equal to rows on b.
+# print(np.dot(A, B))
 
 matrix_A = np.array([[-1, 1, 2],
                      [3, -1, 1],
